@@ -4,9 +4,12 @@ Al presionar el botón pedir un sexo
 function mostrar()
 {
 	var sexoIngresado;
-	sexoIngresado = prompt("ingrese f ó m .");
+	sexoIngresado=prompt("Ingrese F ó M.");
 
-
-
+	while(sexoIngresado!="F" && sexoIngresado!="M")
+	{
+		sexoIngresado=prompt("¡¡ERROR!! Reingrese F ó M.");
+	}
+	
 	txtIdSexo.value=sexoIngresado;
 }//FIN DE LA FUNCIÓN

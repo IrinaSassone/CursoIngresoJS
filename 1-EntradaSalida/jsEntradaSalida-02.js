@@ -16,10 +16,9 @@ function mostrar()
 	*/
 
 	//errores
-	nombre =maria;//variable sin definir
+	/*nombre =maria;//variable sin definir
 	alert(maria);//variable sin definir
 	alert(Nombre);//bariable sin definir
-
+*/
 	//alert("ok");
 }
-

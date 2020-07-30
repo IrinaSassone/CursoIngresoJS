@@ -5,17 +5,14 @@ ej.: "Usted se llama José y tiene 66 años" 	*/
 
 function mostrar()
 {	
-	var edadIngresada; 
-	var nombreIngresado;
+	//txtIdEdad txtIdNombre
+	var nombre;
+	var edad;
 
-	nombreIngresado=txtIdNombre.value;
-	edadIngresada=txtIdEdad.value;
-	alert("Usted se llama "+nombreIngresado+);
-	alert("y tiene "+edadIngresada+" años");
+	nombre = txtIdNombre.value;
+	edad = txtIdEdad.value;
 
-	//segundo paso
-	alert("Usted se llama "+nombreIngresado+" y tiene "+edadIngresada+"años");
+	alert("Usted se llama " +nombre+ "y tengo " +edad+ " años");
 
-	//alert("Usted se llama "+nombreIngresado+" y tiene "+edadIngresada+" años");
 }
 
