@@ -1,15 +1,13 @@
 /*
-Debemos lograr tomar un dato por 'ID'
-y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
+E/S. Ejercicio 3:
+Debemos lograr tomar un dato por 'ID' y luego mostrarlo por "alert" al presionar el botón "Mostrar".
+*/
 function mostrar()
 {
-	var nombreIngresado;//ingreso variable
-	//error
-	//nombreIngresado=txtIdNombre ; [object HTMLImputElement]
-	nombreIngresado=txtIdNombre.value ;
-	//nombreIngresado=document.getElementById('txtIdNombre').value;
+	var nombreIngresado; //Ingreso variable
+	//ERROR:
+	//nombreIngresado=txtIdNombre; [object HTMLImputElement]
+	nombreIngresado=txtIdNombre.value;
+	//Otra forma de definir ID: nombreIngresado=document.getElementById('txtIdNombre').value;
 	alert("Su nombre es: "+nombreIngresado);
-
 }
-
-

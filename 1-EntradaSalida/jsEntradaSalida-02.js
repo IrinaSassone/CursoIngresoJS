@@ -1,24 +1,26 @@
 /*
-Debemos lograr tomar un nombre con 'prompt' 
-y luego mostrarlo por 'alert' 
-al presionar el botón  'mostrar'*/
+E/S. Ejercicio 2:
+Debemos lograr tomar un nombre con "prompt" y luego mostrarlo por "alert"
+al presionar el botón "Mostrar".
+*/
 function mostrar()
 {
-	var nombre;//unica
-	nombre = prompt("Ingresa tu nombre", "Natalia Natalia");
-	alert("El nombre ingresado es: "+nombre);
+	var nombre; //Única variable
+	nombre=prompt("Ingresa tu nombre:"); //Prompt
+	alert("El nombre ingresado es: "+nombre); //Alert para mostrar por botón.
 	//alert(nombre);
-
-	//test
+	
+	//TEST:
 	/*
-	nombre ="maria";
-	alert(nombre);
+	var nombre="maria"; //Funciona pero únicamente para el nombre definido en la variable.
+	alert(nombre); //Para este ejemplo, genera error.
 	*/
 
-	//errores
-	/*nombre =maria;//variable sin definir
-	alert(maria);//variable sin definir
-	alert(Nombre);//bariable sin definir
-*/
-	//alert("ok");
+	//ERRORES:
+	/*
+	nombre=maria; //Variable sin definir.
+	alert(maria); //Alert mal hecho.
+	alert(Nombre); //No es la misma variable, no entra.
+	alert("ok"); //El alert no muestra la variable, por ende, está mal.
+	*/
 }
