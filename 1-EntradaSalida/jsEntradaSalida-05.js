@@ -5,10 +5,10 @@ Ejemplo: "Usted se llama José y tiene 66 años" --> Concatenar (+variable+)
 */
 function mostrar()
 {	
-	//Buscar primero en HTML los ID: "txtIdEdad" y "txtIdNombre" en este caso.
+	// Buscar primero en HTML los ID: "txtIdEdad" y "txtIdNombre" en este caso.
 	var nombre;
 	var edad;
 	nombre=txtIdNombre.value;
 	edad=txtIdEdad.value;
-	alert("Usted se llama "+nombre+" y tiene "+edad+" años.");
+	alert("Usted se llama "+nombre+" y tiene "+edad+" años."); // Se concatenan los datos al texto.
 }

@@ -1,8 +1,8 @@
 /*
-Debemos lograr tomar el importe por ID ,
-transformarlo a entero (parseInt), luego
-mostrar el importe con un aumento del 10 %
-en el cuadro de texto "RESULTADO".*/
+E/S. Ejercicio 9: 
+Debemos lograr tomar el importe por ID, transformarlo a entero (parseInt), luego mostrar el importe 
+con un aumento del 10% en el recuadro de texto "Resultado".
+*/
 function mostrarAumento()
 {
 	var sueldo;
@@ -12,10 +12,9 @@ function mostrarAumento()
 	sueldo = txtIdSueldo.value;
 	sueldo = parseInt(sueldo);
 
-	//porcentaje = sueldo * 10 / 100;
 	//resultado = sueldo + porcentaje;
 
-	resultado = sueldo * 1.1; 
+	resultado = sueldo * 1.1; //porcentaje = sueldo * 10 / 100;
 
 	txtIdResultado.value = resultado;
 

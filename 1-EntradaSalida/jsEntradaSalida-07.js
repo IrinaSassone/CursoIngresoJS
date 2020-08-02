@@ -1,73 +1,57 @@
 /*
-Debemos lograr tomar Los numeros por ID ,
-transformarlos a enteros (parseInt), realizar la operación correcta y 
-mostrar el resulto por medio de "ALERT"
-ej.: "la Resta es 750"*/ 
+E/S. Ejercicio 7:
+Debemos lograr tomar los números por ID, transformarlos a enteros (parseInt), 
+realizar la operación correcta y mostrar el resultado por medio de "alert".
+Ejemplo: "La resta es de 750".
+*/ 
 function sumar()
 {	
-	var numero1;
-	var numero2;
-	var resultado;
-	
-	numero1 = txtIdNumeroUno.value;
-	numero2 = txtIdNumeroDos.value;
- 	
- 	numero1 = parseInt(numero1);
- 	numero2 = parseInt(numero2);
-
- 	resultado = numero1+numero2;
-
- 	alert("La suma es "+resultado);
+	var numeroUno;
+	var numeroDos;
+	var suma;
+	numeroUno=txtIdNumeroUno.value;
+	numeroDos=txtIdNumeroDos.value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	suma=numeroUno+numeroDos;
+	alert("El resultado de la suma es de: "+suma);
 }
 
 function restar()
 {
-	var numero1;
-	var numero2;
-	var resultado;
-	
-	numero1 = txtIdNumeroUno.value;
-	numero2 = txtIdNumeroDos.value;
- 	
- 	numero1 = parseInt(numero1);
- 	numero2 = parseInt(numero2);
-
- 	resultado = numero1-numero2;
-
- 	alert("La resta es "+resultado);
+	var numeroUno;
+	var numeroDos;
+	var resta;
+	numeroUno=txtIdNumeroUno.value;
+	numeroDos=txtIdNumeroDos.value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	resta=numeroUno-numeroDos;
+	alert("El resultado de la resta es de: "+resta);
 }
 
 function multiplicar()
 { 
-	var numero1;
-	var numero2;
-	var resultado;
-	
-	numero1 = txtIdNumeroUno.value;
-	numero2 = txtIdNumeroDos.value;
- 	
- 	numero1 = parseInt(numero1);
- 	numero2 = parseInt(numero2);
-
- 	resultado = numero1*numero2;
-
- 	alert("La multiplicacion es "+resultado);
+	var numeroUno;
+	var numeroDos;
+	var multiplicar;
+	numeroUno=txtIdNumeroUno.value;
+	numeroDos=txtIdNumeroDos.value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	multiplicar=numeroUno*numeroDos;
+	alert("El resultado de la multiplicación es de: "+multiplicar);
 }
 
 function dividir()
 {
-	var numero1;
-	var numero2;
-	var resultado;
-	
-	numero1 = txtIdNumeroUno.value;
-	numero2 = txtIdNumeroDos.value;
- 	
- 	numero1 = parseInt(numero1);
- 	numero2 = parseInt(numero2);
-
- 	resultado = numero1*numero2;
-
- 	alert("La division es "+resultado);
+	var numeroUno;
+	var numeroDos;
+	var dividir;
+	numeroUno=txtIdNumeroUno.value;
+	numeroDos=txtIdNumeroDos.value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	dividir=numeroUno/numeroDos;
+	alert("El resultado de la división es de: "+dividir);
 }
-

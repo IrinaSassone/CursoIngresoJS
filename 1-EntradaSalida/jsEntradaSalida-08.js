@@ -1,21 +1,18 @@
 /*
-Debemos lograr tomar los numeros por ID ,
-transformarlos a enteros (parseInt), realizar la operación correcta y 
-mostrar el resto entre el dividendo y el divisor.
-ej.: "El resto es 0 ."*/
+E/S. Ejercicio 8:
+Debemos lograr tomar los números por ID, transformarlos a enteros (parseInt), 
+realizar la operación correcta y mostrar el resto entre el dividendo y el divisor.
+Ejemplo: "El resto es 0".
+*/
 function SacarResto()
 {
-	var numero1;
-	var numero2;
+	var numeroUno;
+	var numeroDos;
 	var resultado;
-
-	numero1 = txtIdNumeroDividendo.value;
-	numero2 = txtIdNumeroDivisor.value;
-
-	numero1 = parseInt(numero1);
-	numero2 = parseInt(numero2);
-
-	resultado = numero1 % numero2;
-
-	alert(resultado);
+	numeroUno=txtIdNumeroDividendo.value;
+	numeroDos=txtIdNumeroDivisor.value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	resultado=numeroUno%numeroDos;
+	alert("El resto es de: "+resultado);
 }

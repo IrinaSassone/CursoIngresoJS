@@ -1,21 +1,19 @@
 /*
-Debemos lograr tomar Los numeros por ID ,
-transformarlos a enteros (parseInt) y Sumarlos.
-mostrar el resulto por medio de "ALERT"*/
+E/S. Ejercicio 6: 
+Debemos lograr tomar los números por ID, transformarlos a enteros (parseInt) y sumarlos.
+Mostrar el resulto por medio de "alert".
+*/
 function sumar()
 {
-	var numero1;
-	var numero2;
+	var numeroUno;
+	var numeroDos;
 	var suma;
-	
-	numero1 = txtIdNumeroUno.value;
-	numero2 = txtIdNumeroDos.value;
-
-	numero1 = parseInt(numero1);
-	numero2 = parseInt(numero2);
-
-	//suma = numero1 + numero2;
-
+	numeroUno=txtIdNumeroUno.value;
+	numeroDos=txtIdNumeroDos.value;
+	numeroUno=parseInt(numeroUno); //Se parsean los números para que se vuelvan enteros.
+	numeroDos=parseInt(numeroDos); //Este también.
+	//Se hace la suma --> suma=numeroUno+numeroDos;
+	suma=numeroUno+numeroDos;
+	//Por alert solo se usa variable "suma" para mostrar el resultado.
 	alert(suma);
 }
-
