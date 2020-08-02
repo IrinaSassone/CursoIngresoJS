@@ -10,10 +10,8 @@ function sumar()
 	var suma;
 	numeroUno=txtIdNumeroUno.value;
 	numeroDos=txtIdNumeroDos.value;
-	numeroUno=parseInt(numeroUno); //Se parsean los números para que se vuelvan enteros.
-	numeroDos=parseInt(numeroDos); //Este también.
-	//Se hace la suma --> suma=numeroUno+numeroDos;
-	suma=numeroUno+numeroDos;
-	//Por alert solo se usa variable "suma" para mostrar el resultado.
-	alert(suma);
+	numeroUno=parseInt(numeroUno); // Se parsean los números para que se vuelvan enteros.
+	numeroDos=parseInt(numeroDos); // Este también.
+	suma=numeroUno+numeroDos; // Se hace la suma --> suma=numeroUno+numeroDos;
+	alert(suma); // Por alert solo se usa variable "suma" para mostrar el resultado.
 }
