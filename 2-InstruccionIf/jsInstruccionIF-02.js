@@ -1,13 +1,10 @@
 /*
-Ejercicio 2:
-Al ingresar una edad debemos 
-informar solo si la persona es mayor de edad.
+IF. Ejercicio 2:
+Al ingresar una edad debemos informar sólo si la persona es mayor de edad.
 */
-
 function mostrar()
 {
 	var edad;
-	
 	edad=txtIdEdad.value;
 	edad=parseInt(edad); 
 	
