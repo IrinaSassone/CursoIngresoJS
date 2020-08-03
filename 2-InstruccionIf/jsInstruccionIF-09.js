@@ -1,5 +1,5 @@
 /*
-Ejercicio 9:
+IF. Ejercicio 9:
 Al presionar el botón, mostrar un número Random del 1 al 10 inclusive.
 */
 function mostrar()

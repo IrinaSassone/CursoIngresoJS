@@ -1,13 +1,12 @@
 /*
-Ejercicio 6:
-Al ingresar una edad debemos informar si la persona es mayor de edad (mas de 18 años)
+IF. Ejercicio 6:
+Al ingresar una edad debemos informar si la persona es mayor de edad (más de 18 años)
 o adolescente (entre 13 y 17 años) o niño (menor a 13 años).
 */
-//1ER EJEMPLO COMO HAY QUE HACERLO:
 function mostrar()
+// 1ERA FORMA. COMO HAY QUE HACERLO:
 {
 	var edad;
-
 	edad=txtIdEdad.value;
 	edad=parseInt(edad);
 
@@ -26,10 +25,10 @@ function mostrar()
 	}
 }
 
-//2DO EJEMPLO MAS O MENOS BIEN:
+// 2DA FORMA. MAS O MENOS BIEN:
 /*
+{	
 	var edad;
-	
 	edad=txtIdEdad.value;
 	edad=parseInt(edad);
 
@@ -46,9 +45,10 @@ function mostrar()
 			alert("Sos niño.");
 		}
 	}
+}
 */
 
-//ERROR!!!!!!!
+// ERROR!!!!!!!
 /*
 	if(edad<12)
 	{
