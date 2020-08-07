@@ -13,13 +13,13 @@ function mostrar()
 
 	switch(mesDelAño)
 	{
-		case"Febrero":
+		case "Febrero":
 			alert("Este mes tiene 28 días.")
 			break;
-		case"Abril":
-		case"Junio":
-		case"Septiembre":
-		case"Noviembre":
+		case "Abril":
+		case "Junio":
+		case "Septiembre":
+		case "Noviembre":
 			alert("Este mes tiene 30 días.");
 			break;
 		default:

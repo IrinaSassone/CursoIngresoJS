@@ -1,17 +1,15 @@
 /*
-al presionar el botón 
-pedir un número entre 0 y 9 inclusive.*/
+WHILE. Ejercicio 4:
+Al presionar el botón pedir un número entre 0 y 9 inclusive.
+*/
 function mostrar()
 {
 	var numeroIngresado;
+	numeroIngresado=prompt("Ingrese un número del 0 al 9:");
 	numeroIngresado=parseInt(numeroIngresado);
-	numeroIngresado=prompt("Ingrese un número entre 0 y 9.");
-	while(numeroIngresado<0 || numeroIngresado>9)
+	while(numeroIngresado<0 || numeroIngresado>9) // (!(numeroIngresado>-1 && numeroIngresado<10))
 	{
-		numeroIngresado=prompt("¡¡ERROR!! Reingrese un número entre 0 y 9.");
+		numeroIngresado=prompt("¡ERROR! Por favor, ingrese un número del 0 al 9:");
 	}
 	txtIdNumero.value=numeroIngresado;
-	
-}//FIN DE LA FUNCIÓN
-
-//(!(numeroIngresado>-1 && numeroIngresado<10))
+}
